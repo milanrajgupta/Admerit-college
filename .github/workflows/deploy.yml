@@ -18,7 +18,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AKIAUPMYNKOD4APK2T45 }}   
           aws-secret-access-key: ${{ secrets.KXmU+Mx6Tfw0bqQmtO3xbcVbW9S5MBg7Ssjpctjv }} 
-          aws-region: up-south-1  # Replace with your region
+          aws-region: ap-south-1  # Replace with your region
 
       - name: Sync files to S3
         run: |
